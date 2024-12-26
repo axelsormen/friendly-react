@@ -1,0 +1,52 @@
+2024-11-27 17:32:04.235 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-27 17:32:04.238 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-27 17:32:04.239 +01:00 [INF] Hosting environment: Development
+2024-11-27 17:32:04.239 +01:00 [INF] Content root path: C:\Users\Kristoffer\Documents\GitHub\friendlyreact\api
+2024-11-27 17:32:12.997 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/ - null null
+2024-11-27 17:32:13.016 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/ - 404 0 null 20.1333ms
+2024-11-27 17:32:13.018 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/, Response status code: 404
+2024-11-27 17:32:15.979 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/home - null null
+2024-11-27 17:32:15.982 +01:00 [INF] Executing endpoint 'friendly.Controllers.HomeController.Index (api)'
+2024-11-27 17:32:15.989 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller friendly.Controllers.HomeController (api).
+2024-11-27 17:32:15.993 +01:00 [INF] Executed action friendly.Controllers.HomeController.Index (api) in 1.8558ms
+2024-11-27 17:32:15.993 +01:00 [INF] Executed endpoint 'friendly.Controllers.HomeController.Index (api)'
+2024-11-27 17:32:16.007 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Microsoft.AspNetCore.Mvc.ViewFeatures.ITempDataDictionaryFactory' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Mvc.Controller.get_TempData()
+   at Microsoft.AspNetCore.Mvc.Controller.View(String viewName, Object model)
+   at friendly.Controllers.HomeController.Index() in C:\Users\Kristoffer\Documents\GitHub\friendlyreact\api\Controllers\HomeController.cs:line 10
+   at lambda_method13(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-27 17:32:16.014 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/home - 500 null text/html; charset=utf-8 35.7132ms
+2024-11-27 17:32:16.074 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/favicon.ico - null null
+2024-11-27 17:32:16.076 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/favicon.ico - 404 0 null 1.7829ms
+2024-11-27 17:32:16.076 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/favicon.ico, Response status code: 404
+2024-11-27 17:32:23.468 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/posts - null null
+2024-11-27 17:32:23.469 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/posts - 404 0 null 0.4176ms
+2024-11-27 17:32:23.469 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/posts, Response status code: 404
+2024-11-27 17:32:37.457 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/posts/postListPage - null null
+2024-11-27 17:32:37.458 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/posts/postListPage - 404 0 null 0.3813ms
+2024-11-27 17:32:37.458 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/posts/postListPage, Response status code: 404
+2024-11-27 17:32:45.943 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/posts/postListPage - null null
+2024-11-27 17:32:45.943 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/posts/postListPage - 404 0 null 0.3393ms
+2024-11-27 17:32:45.943 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/posts/postListPage, Response status code: 404
+2024-11-27 17:33:17.497 +01:00 [INF] Application is shutting down...

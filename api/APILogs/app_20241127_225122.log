@@ -1,0 +1,17 @@
+2024-11-27 22:51:22.818 +01:00 [INF] User profile is available. Using '/Users/axel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-27 22:51:24.295 +01:00 [INF] Now listening on: https://localhost:7046
+2024-11-27 22:51:24.296 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-27 22:51:24.297 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-27 22:51:24.297 +01:00 [INF] Hosting environment: Development
+2024-11-27 22:51:24.297 +01:00 [INF] Content root path: /Users/axel/Documents/Skole/TestFriendly/api
+2024-11-27 22:51:24.959 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - null null
+2024-11-27 22:51:24.988 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 200 null text/html;charset=utf-8 29.6017ms
+2024-11-27 22:51:25.169 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - null null
+2024-11-27 22:51:25.191 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.5664ms
+2024-11-27 22:51:27.746 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-27 22:51:27.780 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-27 22:51:27.789 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-27 22:51:27.819 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-27 22:51:27.850 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 58.568ms
+2024-11-27 22:51:27.850 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-27 22:51:27.852 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 441 application/json; charset=utf-8 106.2455ms

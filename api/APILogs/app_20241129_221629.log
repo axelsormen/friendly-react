@@ -1,0 +1,180 @@
+2024-11-29 22:16:29.497 +01:00 [INF] User profile is available. Using '/Users/axel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-29 22:16:30.968 +01:00 [INF] Now listening on: https://localhost:7046
+2024-11-29 22:16:30.969 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-29 22:16:30.970 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-29 22:16:30.970 +01:00 [INF] Hosting environment: Development
+2024-11-29 22:16:30.971 +01:00 [INF] Content root path: /Users/axel/Documents/Skole/TestFriendly/api
+2024-11-29 22:16:32.865 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - null null
+2024-11-29 22:16:32.909 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 200 null text/html;charset=utf-8 44.8686ms
+2024-11-29 22:16:33.183 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - null null
+2024-11-29 22:16:33.226 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.7227ms
+2024-11-29 22:16:37.439 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-29 22:16:37.442 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-29 22:16:37.443 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-29 22:16:37.463 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:16:37.463 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:16:37.463 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:16:37.471 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:16:37.471 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-29 22:16:37.471 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-29 22:16:37.480 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-29 22:16:37.480 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-29 22:16:37.480 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-29 22:16:37.504 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:16:37.504 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:16:37.504 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:16:37.536 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 53.8435ms
+2024-11-29 22:16:37.536 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 53.755ms
+2024-11-29 22:16:37.536 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 53.7991ms
+2024-11-29 22:16:37.536 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-29 22:16:37.536 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:16:37.536 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-29 22:16:37.538 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 98.6186ms
+2024-11-29 22:16:37.538 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 441 application/json; charset=utf-8 95.097ms
+2024-11-29 22:16:37.538 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 95.278ms
+2024-11-29 22:16:37.540 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage1.jpg - null null
+2024-11-29 22:16:37.541 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/mountains.jpg - null null
+2024-11-29 22:16:37.541 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage2.jpg - null null
+2024-11-29 22:16:37.544 +01:00 [INF] The file /uploads/profile-images/profileimage2.jpg was not modified
+2024-11-29 22:16:37.544 +01:00 [INF] The file /uploads/profile-images/profileimage1.jpg was not modified
+2024-11-29 22:16:37.544 +01:00 [INF] The file /uploads/mountains.jpg was not modified
+2024-11-29 22:16:37.544 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/fall.jpg - null null
+2024-11-29 22:16:37.544 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage2.jpg - 304 null image/jpeg 3.4808ms
+2024-11-29 22:16:37.544 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage1.jpg - 304 null image/jpeg 3.9101ms
+2024-11-29 22:16:37.544 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/mountains.jpg - 304 null image/jpeg 3.764ms
+2024-11-29 22:16:37.544 +01:00 [INF] The file /uploads/fall.jpg was not modified
+2024-11-29 22:16:37.544 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/fall.jpg - 304 null image/jpeg 0.3622ms
+2024-11-29 22:16:37.545 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage4.jpg - null null
+2024-11-29 22:16:37.545 +01:00 [INF] The file /uploads/profile-images/profileimage4.jpg was not modified
+2024-11-29 22:16:37.545 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage4.jpg - 304 null image/jpeg 0.1481ms
+2024-11-29 22:16:37.547 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/beach.jpg - null null
+2024-11-29 22:16:37.548 +01:00 [INF] The file /uploads/beach.jpg was not modified
+2024-11-29 22:16:37.548 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/beach.jpg - 304 null image/jpeg 0.1121ms
+2024-11-29 22:16:42.022 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-29 22:16:42.027 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:16:42.032 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:16:42.033 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-29 22:16:42.080 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:16:42.081 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 47.7195ms
+2024-11-29 22:16:42.081 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:16:42.081 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 59.2786ms
+2024-11-29 22:16:46.447 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5062/api/postapi/create - multipart/form-data; boundary=----WebKitFormBoundarysXK5AioFA0xhCEB1 815871
+2024-11-29 22:16:46.449 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:16:46.450 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.CreatePost (api)'
+2024-11-29 22:16:46.464 +01:00 [INF] Route matched with {action = "CreatePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(friendly.DTOs.PostDto, Microsoft.AspNetCore.Http.IFormFile) on controller friendly.Controllers.PostAPIController (api).
+2024-11-29 22:16:46.508 +01:00 [INF] [PostRepository] Adding post to the DbContext: {"PostId":0,"PostImagePath":"/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg","Caption":"erer","PostDate":"29/11/2024 22:16:46","UserId":"18934d79-73c3-466a-94dd-664bd0e6b120","User":null,"Comments":null,"Likes":null,"$type":"Post"}
+2024-11-29 22:16:46.511 +01:00 [INF] [PostRepository] Entity state before saving: "Added"
+2024-11-29 22:16:46.513 +01:00 [INF] [PostRepository] Entity state after saving: "Unchanged"
+2024-11-29 22:16:46.513 +01:00 [INF] [PostRepository] Post creation succeeded with PostId: 4
+2024-11-29 22:16:46.514 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'friendly.DTOs.PostDto'.
+2024-11-29 22:16:46.522 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.CreatePost (api) in 58.1549ms
+2024-11-29 22:16:46.522 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.CreatePost (api)'
+2024-11-29 22:16:46.523 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5062/api/postapi/create - 201 185 application/json; charset=utf-8 76.367ms
+2024-11-29 22:16:48.174 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-29 22:16:48.174 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-29 22:16:48.174 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-29 22:16:48.175 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:16:48.175 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:16:48.175 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:16:48.175 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-29 22:16:48.175 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:16:48.175 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-29 22:16:48.175 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-29 22:16:48.175 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-29 22:16:48.175 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-29 22:16:48.177 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:16:48.177 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 1.8712ms
+2024-11-29 22:16:48.177 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-29 22:16:48.177 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:16:48.177 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 680 application/json; charset=utf-8 3.1338ms
+2024-11-29 22:16:48.177 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:16:48.178 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 2.1811ms
+2024-11-29 22:16:48.178 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-29 22:16:48.178 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 441 application/json; charset=utf-8 3.474ms
+2024-11-29 22:16:48.178 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 2.4999ms
+2024-11-29 22:16:48.178 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:16:48.178 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 3.7238ms
+2024-11-29 22:16:48.182 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg - null null
+2024-11-29 22:16:48.182 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage5.jpg - null null
+2024-11-29 22:16:48.183 +01:00 [INF] The file /uploads/profile-images/profileimage5.jpg was not modified
+2024-11-29 22:16:48.183 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage5.jpg - 304 null image/jpeg 0.3522ms
+2024-11-29 22:16:48.197 +01:00 [INF] Sending file. Request path: '/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg'. Physical path: '/Users/axel/Documents/Skole/TestFriendly/api/wwwroot/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg'
+2024-11-29 22:16:48.197 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg - 200 815455 image/jpeg 15.3163ms
+2024-11-29 22:17:06.987 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/undefined - null null
+2024-11-29 22:17:06.990 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:17:06.995 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/undefined - 404 0 null 8.8052ms
+2024-11-29 22:17:06.996 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/api/PostAPI/undefined, Response status code: 404
+2024-11-29 22:17:09.131 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-29 22:17:09.131 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-29 22:17:09.132 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-29 22:17:09.132 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:17:09.132 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:17:09.133 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:17:09.134 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:17:09.134 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-29 22:17:09.134 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-29 22:17:09.136 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-29 22:17:09.136 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-29 22:17:09.136 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-29 22:17:09.150 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:17:09.150 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:17:09.150 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:17:09.151 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 13.9416ms
+2024-11-29 22:17:09.151 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 14.0344ms
+2024-11-29 22:17:09.151 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-29 22:17:09.151 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 14.2263ms
+2024-11-29 22:17:09.151 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:17:09.151 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-29 22:17:09.151 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 680 application/json; charset=utf-8 20.0139ms
+2024-11-29 22:17:09.151 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 19.9425ms
+2024-11-29 22:17:09.151 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 441 application/json; charset=utf-8 18.8623ms
+2024-11-29 22:17:09.155 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg - null null
+2024-11-29 22:17:09.156 +01:00 [INF] The file /uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg was not modified
+2024-11-29 22:17:09.156 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg - 304 null image/jpeg 1.4185ms
+2024-11-29 22:17:10.272 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/4 - null null
+2024-11-29 22:17:10.272 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:17:10.273 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/4 - 404 0 null 0.7862ms
+2024-11-29 22:17:10.273 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/api/PostAPI/4, Response status code: 404
+2024-11-29 22:19:04.741 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/post/4 - null null
+2024-11-29 22:19:04.743 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:19:04.745 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/post/4 - 404 0 null 5.7161ms
+2024-11-29 22:19:04.746 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/api/PostAPI/post/4, Response status code: 404
+2024-11-29 22:19:15.022 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-29 22:19:15.024 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-29 22:19:15.024 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:19:15.024 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-29 22:19:15.024 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:19:15.024 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:19:15.028 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-29 22:19:15.028 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:19:15.028 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-29 22:19:15.029 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-29 22:19:15.029 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-29 22:19:15.029 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-29 22:19:15.037 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:19:15.037 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:19:15.037 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 22:19:15.037 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 8.2003ms
+2024-11-29 22:19:15.037 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 8.0959ms
+2024-11-29 22:19:15.037 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-29 22:19:15.037 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-29 22:19:15.037 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 8.1273ms
+2024-11-29 22:19:15.037 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-29 22:19:15.037 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 441 application/json; charset=utf-8 13.4132ms
+2024-11-29 22:19:15.037 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 13.4273ms
+2024-11-29 22:19:15.037 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 680 application/json; charset=utf-8 15.392ms
+2024-11-29 22:19:15.049 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg - null null
+2024-11-29 22:19:15.049 +01:00 [INF] The file /uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg was not modified
+2024-11-29 22:19:15.049 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg - 304 null image/jpeg 0.7064ms
+2024-11-29 22:19:16.939 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/post/4 - null null
+2024-11-29 22:19:16.940 +01:00 [INF] CORS policy execution successful.
+2024-11-29 22:19:16.942 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/post/4 - 404 0 null 3.0996ms
+2024-11-29 22:19:16.942 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/api/PostAPI/post/4, Response status code: 404
+2024-11-29 22:19:28.252 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - null null
+2024-11-29 22:19:28.267 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 200 null text/html;charset=utf-8 15.2787ms
+2024-11-29 22:19:28.360 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - null null
+2024-11-29 22:19:28.366 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.9467ms
+2024-11-29 22:19:31.337 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - null null
+2024-11-29 22:19:31.338 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 200 null text/html;charset=utf-8 0.657ms
+2024-11-29 22:19:31.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - null null
+2024-11-29 22:19:31.504 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.7411ms

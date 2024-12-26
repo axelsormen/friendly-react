@@ -1,0 +1,23 @@
+2024-11-28 14:01:14.106 +01:00 [INF] User profile is available. Using 'C:\Users\Kristoffer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-28 14:01:15.196 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-11-28 14:01:15.215 +01:00 [INF] Now listening on: https://localhost:7046
+2024-11-28 14:01:15.216 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-28 14:01:15.218 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-28 14:01:15.220 +01:00 [INF] Hosting environment: Development
+2024-11-28 14:01:15.220 +01:00 [INF] Content root path: C:\Users\Kristoffer\Documents\TestFriendly\api
+2024-11-28 14:01:20.917 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-28 14:01:20.933 +01:00 [INF] CORS policy execution successful.
+2024-11-28 14:01:20.938 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-28 14:01:20.944 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-28 14:01:20.966 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 14:01:21.007 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 61.0616ms
+2024-11-28 14:01:21.007 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-28 14:01:21.008 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-28 14:01:21.010 +01:00 [INF] CORS policy execution successful.
+2024-11-28 14:01:21.010 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-28 14:01:21.010 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-28 14:01:21.011 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 912 application/json; charset=utf-8 94.7368ms
+2024-11-28 14:01:21.037 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-28 14:01:21.038 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 27.6168ms
+2024-11-28 14:01:21.038 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-28 14:01:21.038 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 912 application/json; charset=utf-8 30.6627ms

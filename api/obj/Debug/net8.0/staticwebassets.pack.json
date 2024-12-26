@@ -1,0 +1,561 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/images/beach.jpg",
+      "PackagePath": "staticwebassets/images/beach.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/images/fall.jpg",
+      "PackagePath": "staticwebassets/images/fall.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/images/mountains.jpg",
+      "PackagePath": "staticwebassets/images/mountains.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/js/bootstrap.js",
+      "PackagePath": "staticwebassets/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/js/jquery.min.js",
+      "PackagePath": "staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/js/jquery.validate.js",
+      "PackagePath": "staticwebassets/js/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/js/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/js/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/0191ea2a-2322-473a-842f-595293bde79b_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/0191ea2a-2322-473a-842f-595293bde79b_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/02706db4-de90-4fa2-9f38-b5f7703d800b_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/02706db4-de90-4fa2-9f38-b5f7703d800b_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/04813b5f-9da1-4a1c-930b-097ca04420ad_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/04813b5f-9da1-4a1c-930b-097ca04420ad_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/064dabaf-bf52-4bd1-979b-ccfee7ac8902_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/064dabaf-bf52-4bd1-979b-ccfee7ac8902_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/06527441-808e-49ad-9bee-e65ea1d0d4bc_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/06527441-808e-49ad-9bee-e65ea1d0d4bc_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/06ae38b8-ea0e-4fc2-a01a-38e934c49e1b_Nettside.png",
+      "PackagePath": "staticwebassets/uploads/06ae38b8-ea0e-4fc2-a01a-38e934c49e1b_Nettside.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/0786d746-5e49-4cb1-8f9d-0d8eb9cedc2d_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/0786d746-5e49-4cb1-8f9d-0d8eb9cedc2d_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/0836b55e-1025-48c5-bc67-d084f0a8de8a_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/0836b55e-1025-48c5-bc67-d084f0a8de8a_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/098149e5-119a-41ab-956a-9f1277ec4b36_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/098149e5-119a-41ab-956a-9f1277ec4b36_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/0a220890-2047-42af-86c4-3d3213ac221b_MSI_MEG_GODLIKE.jpg",
+      "PackagePath": "staticwebassets/uploads/0a220890-2047-42af-86c4-3d3213ac221b_MSI_MEG_GODLIKE.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/0a370a64-ad28-4049-b497-05ceafb79ba1_dots.png",
+      "PackagePath": "staticwebassets/uploads/0a370a64-ad28-4049-b497-05ceafb79ba1_dots.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/0a625cd1-d897-4526-832c-4839356df7c6_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/0a625cd1-d897-4526-832c-4839356df7c6_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/0d265bf9-8ada-4256-ba5c-2367442952c9_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/0d265bf9-8ada-4256-ba5c-2367442952c9_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/10ba8644-d28f-43bf-ba8b-bd633d1447ee_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/10ba8644-d28f-43bf-ba8b-bd633d1447ee_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/14b7d009-7ae5-4d4e-8ff8-95b021dff404_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/14b7d009-7ae5-4d4e-8ff8-95b021dff404_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/150b3f12-1c70-4781-9504-71e5f0fd10f3_Terminal.png",
+      "PackagePath": "staticwebassets/uploads/150b3f12-1c70-4781-9504-71e5f0fd10f3_Terminal.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/152c465f-504e-4e2a-b882-568461c72ac2_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/152c465f-504e-4e2a-b882-568461c72ac2_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/1b4d0afa-f470-4a08-9c00-21cdfd0c32b9_MSI.png",
+      "PackagePath": "staticwebassets/uploads/1b4d0afa-f470-4a08-9c00-21cdfd0c32b9_MSI.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/1b800e92-e9f7-4893-a16e-0ef77b3dac09_image-generated-by-ai-portrait-handsome-asian-man_803126-1182.jpg",
+      "PackagePath": "staticwebassets/uploads/1b800e92-e9f7-4893-a16e-0ef77b3dac09_image-generated-by-ai-portrait-handsome-asian-man_803126-1182.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/1f2afbfa-befd-4e00-9493-bc8e184fa61e_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/1f2afbfa-befd-4e00-9493-bc8e184fa61e_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/29a78ddf-82af-4d0e-8d94-c1e46aa8413c_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/29a78ddf-82af-4d0e-8d94-c1e46aa8413c_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/2b2a3cfd-a28b-4bcd-a480-6679e4935431_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/2b2a3cfd-a28b-4bcd-a480-6679e4935431_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/30d92246-2897-4d41-8214-b42499798864_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/30d92246-2897-4d41-8214-b42499798864_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/30ec90c8-4232-4521-8dfe-4d3d581cc260_fishandchips.jpg",
+      "PackagePath": "staticwebassets/uploads/30ec90c8-4232-4521-8dfe-4d3d581cc260_fishandchips.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/31d3c2d3-ecf9-4048-93ec-bae8ff0a0ecb_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/31d3c2d3-ecf9-4048-93ec-bae8ff0a0ecb_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/345dca38-f356-4784-bb19-4a254a2453dd_Brainstorming and ideation-4.png",
+      "PackagePath": "staticwebassets/uploads/345dca38-f356-4784-bb19-4a254a2453dd_Brainstorming and ideation-4.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/350ea3ea-35c9-48b0-b38d-030dda058227_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/350ea3ea-35c9-48b0-b38d-030dda058227_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/3782e1d4-d35c-40a1-8863-eb32e66f9b1f_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/3782e1d4-d35c-40a1-8863-eb32e66f9b1f_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/3a5eefce-03ce-4411-af31-8bcf64e30aff_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/3a5eefce-03ce-4411-af31-8bcf64e30aff_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/3e96a44d-0219-4846-a8db-07067d00867d_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/3e96a44d-0219-4846-a8db-07067d00867d_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/3f4974be-bb9e-4b3e-aa49-bd227c6d9479_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/3f4974be-bb9e-4b3e-aa49-bd227c6d9479_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/4225ecd7-92d6-4e7d-8ccd-b8f296074cd4_MSI.png",
+      "PackagePath": "staticwebassets/uploads/4225ecd7-92d6-4e7d-8ccd-b8f296074cd4_MSI.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/4617d43c-ddc7-4033-9d9a-f8b5e254bb6c_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/4617d43c-ddc7-4033-9d9a-f8b5e254bb6c_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/48aed517-514f-4a47-821c-770a3ce2f547_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/48aed517-514f-4a47-821c-770a3ce2f547_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/4965f735-da85-4560-9da0-018def1100f6_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/4965f735-da85-4560-9da0-018def1100f6_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/4ce2125b-feba-4a7d-bcb5-a8ce82a73ad4_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/4ce2125b-feba-4a7d-bcb5-a8ce82a73ad4_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/5185852d-dc74-4c34-8445-a1a9e5018785_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/5185852d-dc74-4c34-8445-a1a9e5018785_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/5237de3c-8b95-4f38-af27-3d13ed2394da_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/5237de3c-8b95-4f38-af27-3d13ed2394da_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/5bb2485b-03dd-4b1c-849f-207acb37fbaf_Terminal.png",
+      "PackagePath": "staticwebassets/uploads/5bb2485b-03dd-4b1c-849f-207acb37fbaf_Terminal.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/60478c65-c3ed-4c3e-b54a-3ba0be893504_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/60478c65-c3ed-4c3e-b54a-3ba0be893504_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/60d813e3-96d9-4b1a-845b-ddccf8b40d14_MSI_MAG.jpg",
+      "PackagePath": "staticwebassets/uploads/60d813e3-96d9-4b1a-845b-ddccf8b40d14_MSI_MAG.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/65612685-9462-40fd-866b-d540c4381591_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/65612685-9462-40fd-866b-d540c4381591_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/6744c15b-31ef-4a1e-894c-dc7ae51db741_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/6744c15b-31ef-4a1e-894c-dc7ae51db741_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/696b2122-57be-4d9b-956d-39bd8b29ca08_Nettside.png",
+      "PackagePath": "staticwebassets/uploads/696b2122-57be-4d9b-956d-39bd8b29ca08_Nettside.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/6fe6146e-b8f1-48e5-aeff-7a25e4f5ad0f_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/6fe6146e-b8f1-48e5-aeff-7a25e4f5ad0f_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/71fe206a-e9b2-489f-967b-3f81ffcedc67_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/71fe206a-e9b2-489f-967b-3f81ffcedc67_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/74964328-2457-4add-a35c-ce0331bfe0ad_THIERLICENS.docx",
+      "PackagePath": "staticwebassets/uploads/74964328-2457-4add-a35c-ce0331bfe0ad_THIERLICENS.docx"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/75293097-b096-455f-882a-20c36c52a976_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/75293097-b096-455f-882a-20c36c52a976_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/76b080f0-12d0-42eb-9d08-d406c7dd2fba_Terminal.png",
+      "PackagePath": "staticwebassets/uploads/76b080f0-12d0-42eb-9d08-d406c7dd2fba_Terminal.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/827afb08-db5b-4794-b7dc-5779c906583c_Brainstorming and ideation-2.png",
+      "PackagePath": "staticwebassets/uploads/827afb08-db5b-4794-b7dc-5779c906583c_Brainstorming and ideation-2.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/83de899a-0d39-49a6-9eb7-fa53b9142390_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/83de899a-0d39-49a6-9eb7-fa53b9142390_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/86913c58-0edc-4c5e-bb71-7e6fbca268d9_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/86913c58-0edc-4c5e-bb71-7e6fbca268d9_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/878488db-294f-4842-918a-ccdfdf484281_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/878488db-294f-4842-918a-ccdfdf484281_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/8d08a9ac-1ccb-4d61-97d8-b9643e0484ed_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/8d08a9ac-1ccb-4d61-97d8-b9643e0484ed_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/8f8148d4-068b-448f-bf63-981babdc9936_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/8f8148d4-068b-448f-bf63-981babdc9936_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/91668ddf-f911-477e-8cec-c6d6f4eb647a_norway.png",
+      "PackagePath": "staticwebassets/uploads/91668ddf-f911-477e-8cec-c6d6f4eb647a_norway.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/926da6da-1580-4b66-89ab-ed3540c8563e_fall.jpeg",
+      "PackagePath": "staticwebassets/uploads/926da6da-1580-4b66-89ab-ed3540c8563e_fall.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/939894a3-1158-4da9-b118-f4d02bae8111_MSI.png",
+      "PackagePath": "staticwebassets/uploads/939894a3-1158-4da9-b118-f4d02bae8111_MSI.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/93e65b33-5c0b-41cf-8ccc-9037a8e43032_Brainstorming and ideation-3.png",
+      "PackagePath": "staticwebassets/uploads/93e65b33-5c0b-41cf-8ccc-9037a8e43032_Brainstorming and ideation-3.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/960c77aa-d7f1-4c5f-a0f0-a3098a8388de_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/960c77aa-d7f1-4c5f-a0f0-a3098a8388de_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/9821cd5f-44d3-4965-a840-7ed764cd85ba_MSI.png",
+      "PackagePath": "staticwebassets/uploads/9821cd5f-44d3-4965-a840-7ed764cd85ba_MSI.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/9ab3788b-abd5-4055-82e2-63d612b975d3_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/9ab3788b-abd5-4055-82e2-63d612b975d3_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/9bf9f27f-ad1b-4c98-9796-62c58c7894e2_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/9bf9f27f-ad1b-4c98-9796-62c58c7894e2_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/9d998b7f-80d3-47be-9d21-51aa1c7a4cf0_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/9d998b7f-80d3-47be-9d21-51aa1c7a4cf0_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/9d9b957c-1fa7-4391-b030-29340423eda1_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/9d9b957c-1fa7-4391-b030-29340423eda1_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/a29e9aa7-3c19-4ab0-8eb7-e1112ebe7297_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/a29e9aa7-3c19-4ab0-8eb7-e1112ebe7297_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/a38dbb7d-6024-46c6-afd4-f58d52181aa8_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/a38dbb7d-6024-46c6-afd4-f58d52181aa8_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/a7cc1b53-342a-40be-9c38-b55d0e7a9b26_MSI.png",
+      "PackagePath": "staticwebassets/uploads/a7cc1b53-342a-40be-9c38-b55d0e7a9b26_MSI.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/aa0ad742-a945-49db-a15d-6b982fd2e6ae_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/aa0ad742-a945-49db-a15d-6b982fd2e6ae_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/b12a5275-0e42-4ec0-ad17-1f50ff7aca2c_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/b12a5275-0e42-4ec0-ad17-1f50ff7aca2c_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/b28e7016-5cb8-458c-86c9-3ac4003ab24c_Brainstorming and ideation-2.png",
+      "PackagePath": "staticwebassets/uploads/b28e7016-5cb8-458c-86c9-3ac4003ab24c_Brainstorming and ideation-2.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/b4767317-f39b-4e9f-9410-cdb4e0d5c6f7_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/b4767317-f39b-4e9f-9410-cdb4e0d5c6f7_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/b5035ba9-bef7-42ad-98e8-f8b906eb6b79_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/b5035ba9-bef7-42ad-98e8-f8b906eb6b79_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/ba3ed753-49d2-4af1-9940-63fb6c4d9e09_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/ba3ed753-49d2-4af1-9940-63fb6c4d9e09_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/bd988e62-0aac-47e8-919f-d53650c632c6_fall.jpeg",
+      "PackagePath": "staticwebassets/uploads/bd988e62-0aac-47e8-919f-d53650c632c6_fall.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/beach.jpg",
+      "PackagePath": "staticwebassets/uploads/beach.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/bf19d973-29e8-4cde-8ed0-8f9baf47ca01_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/bf19d973-29e8-4cde-8ed0-8f9baf47ca01_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/bf2fd512-9e09-4801-ad08-6a2a4d190482_fishandchips.jpg",
+      "PackagePath": "staticwebassets/uploads/bf2fd512-9e09-4801-ad08-6a2a4d190482_fishandchips.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/c1084280-127b-426c-9bd1-66e533440360_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/c11be423-7f6a-4817-a586-8b5294fa1686_Nettside.png",
+      "PackagePath": "staticwebassets/uploads/c11be423-7f6a-4817-a586-8b5294fa1686_Nettside.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/c4022f2c-6fb3-4dbd-a89b-fbeefcbe7add_Brainstorming and ideation-4.png",
+      "PackagePath": "staticwebassets/uploads/c4022f2c-6fb3-4dbd-a89b-fbeefcbe7add_Brainstorming and ideation-4.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/c5ff7cf6-a071-4155-af9c-fdfcb55fe464_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/c5ff7cf6-a071-4155-af9c-fdfcb55fe464_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/c89ff274-ef05-4d72-93e2-cd5a64052737_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/c89ff274-ef05-4d72-93e2-cd5a64052737_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/c97e8ad5-732d-42b4-b769-608eafff7681_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/c97e8ad5-732d-42b4-b769-608eafff7681_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/caef3153-dacc-4cfe-8c3f-fcd431803e5f_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/caef3153-dacc-4cfe-8c3f-fcd431803e5f_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/caf51022-4f91-405a-801d-5b15021af3a0_image-generated-by-ai-portrait-handsome-asian-man_803126-1182.jpg",
+      "PackagePath": "staticwebassets/uploads/caf51022-4f91-405a-801d-5b15021af3a0_image-generated-by-ai-portrait-handsome-asian-man_803126-1182.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/ce5e5316-8fd5-4979-b168-51a0eba7734d_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/ce5e5316-8fd5-4979-b168-51a0eba7734d_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/ce9177e6-5ad3-4e7c-a1ac-cdfb3a9d8623_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/ce9177e6-5ad3-4e7c-a1ac-cdfb3a9d8623_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/cffb0e57-e170-4410-a01e-3c13d09b8d72_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/cffb0e57-e170-4410-a01e-3c13d09b8d72_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/d05a20b9-e8b3-44d8-9bf2-1351921e5c00_Brainstorming and ideation-3.png",
+      "PackagePath": "staticwebassets/uploads/d05a20b9-e8b3-44d8-9bf2-1351921e5c00_Brainstorming and ideation-3.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/d1598f2a-f7f7-4c70-8f1e-618e7380cf2e_Brainstorming and ideation-2.png",
+      "PackagePath": "staticwebassets/uploads/d1598f2a-f7f7-4c70-8f1e-618e7380cf2e_Brainstorming and ideation-2.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/d3d448c0-9964-413d-997a-1c3461f0d059_Brainstorming and ideation-2.png",
+      "PackagePath": "staticwebassets/uploads/d3d448c0-9964-413d-997a-1c3461f0d059_Brainstorming and ideation-2.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/d648e7b8-7291-41ca-bb8d-370013e80db6_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/d648e7b8-7291-41ca-bb8d-370013e80db6_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/d6eb989a-fb7f-4a4b-8e0e-1ef9b377f3d6_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/d6eb989a-fb7f-4a4b-8e0e-1ef9b377f3d6_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/e86e27e6-0071-466d-9d8c-3df121459786_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/e86e27e6-0071-466d-9d8c-3df121459786_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/edbf325a-2964-4490-a177-830202eb71b8_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/edbf325a-2964-4490-a177-830202eb71b8_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/ee4b6732-186e-467b-ac4d-9fb7bd7401ea_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/ee4b6732-186e-467b-ac4d-9fb7bd7401ea_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/ef92dc0d-d5d7-4a56-a8bb-5e9ced6b8865_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/ef92dc0d-d5d7-4a56-a8bb-5e9ced6b8865_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/eff9c264-056c-4867-83fa-c3ec7586e46a_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/eff9c264-056c-4867-83fa-c3ec7586e46a_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/f0c5df2a-b34f-412c-b562-4979e8160799_fishandchips.jpg",
+      "PackagePath": "staticwebassets/uploads/f0c5df2a-b34f-412c-b562-4979e8160799_fishandchips.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/f2fbc504-d950-4670-9a46-5db7f694aeae_profileimage3.avif",
+      "PackagePath": "staticwebassets/uploads/f2fbc504-d950-4670-9a46-5db7f694aeae_profileimage3.avif"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/f4ea125d-d863-4a2e-8b1c-3442ab407cc4_mountains.jpeg",
+      "PackagePath": "staticwebassets/uploads/f4ea125d-d863-4a2e-8b1c-3442ab407cc4_mountains.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/f7f58f75-43f1-4e1a-9036-6321c8160669_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/f7f58f75-43f1-4e1a-9036-6321c8160669_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/fall.jpg",
+      "PackagePath": "staticwebassets/uploads/fall.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/fc61febc-4d0d-46b1-b0d7-63c938514f13_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/fc61febc-4d0d-46b1-b0d7-63c938514f13_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/fda3be86-5c08-4df0-a9a1-ac1afa75dda2_MSI.png",
+      "PackagePath": "staticwebassets/uploads/fda3be86-5c08-4df0-a9a1-ac1afa75dda2_MSI.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/fe40c5cc-7d82-4b2f-925d-a9bcafbedc23_beach.jpeg",
+      "PackagePath": "staticwebassets/uploads/fe40c5cc-7d82-4b2f-925d-a9bcafbedc23_beach.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/ffe696ff-fc3e-463d-884a-50e41773022f_Brainstorming and ideation-4.png",
+      "PackagePath": "staticwebassets/uploads/ffe696ff-fc3e-463d-884a-50e41773022f_Brainstorming and ideation-4.png"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/mountains.jpg",
+      "PackagePath": "staticwebassets/uploads/mountains.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/2482e95b-4850-442c-b291-009c086a7c54_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/2482e95b-4850-442c-b291-009c086a7c54_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/3d8949cb-a554-4168-a6c9-ad5b7a3df6cd_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/3d8949cb-a554-4168-a6c9-ad5b7a3df6cd_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/3fc7eac0-ba2d-41de-8321-a4c34260d49a_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/3fc7eac0-ba2d-41de-8321-a4c34260d49a_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/4cd09aa6-722e-4768-8205-b245c0b96456_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/4cd09aa6-722e-4768-8205-b245c0b96456_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/73123ff8-f5c5-4db9-8daf-9523cbd2e5ea_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/73123ff8-f5c5-4db9-8daf-9523cbd2e5ea_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/7c12cb57-5844-47bd-95b4-9fb5349f9e1c_pizza.jpg",
+      "PackagePath": "staticwebassets/uploads/profile-images/7c12cb57-5844-47bd-95b4-9fb5349f9e1c_pizza.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/8eaceaa3-be54-495c-821f-77800cbf0a4e_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/8eaceaa3-be54-495c-821f-77800cbf0a4e_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/9081d60e-6fb5-40f1-a21b-b79520b548a9_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/9081d60e-6fb5-40f1-a21b-b79520b548a9_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/9a7dd2d6-f497-4a00-89c3-10f5ed807d99_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/9a7dd2d6-f497-4a00-89c3-10f5ed807d99_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/b83376ee-a783-4a96-a632-e769fca25e05_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/b83376ee-a783-4a96-a632-e769fca25e05_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/c4be223c-e044-4315-8595-00079484d88a_fishandchips.jpg",
+      "PackagePath": "staticwebassets/uploads/profile-images/c4be223c-e044-4315-8595-00079484d88a_fishandchips.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/defaultprofileimage.jpg",
+      "PackagePath": "staticwebassets/uploads/profile-images/defaultprofileimage.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/ead32974-d08e-4b8d-b99c-0a4ab25d5389_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/ead32974-d08e-4b8d-b99c-0a4ab25d5389_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/f9064384-05bb-4504-8c25-e3c7c678b0a4_profileimage2.jpeg",
+      "PackagePath": "staticwebassets/uploads/profile-images/f9064384-05bb-4504-8c25-e3c7c678b0a4_profileimage2.jpeg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/profileimage1.jpg",
+      "PackagePath": "staticwebassets/uploads/profile-images/profileimage1.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/profileimage2.jpg",
+      "PackagePath": "staticwebassets/uploads/profile-images/profileimage2.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/profileimage3.jpg",
+      "PackagePath": "staticwebassets/uploads/profile-images/profileimage3.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/profileimage4.jpg",
+      "PackagePath": "staticwebassets/uploads/profile-images/profileimage4.jpg"
+    },
+    {
+      "Id": "/Users/axel/Documents/Skole/friendlyReact/api/wwwroot/uploads/profile-images/profileimage5.jpg",
+      "PackagePath": "staticwebassets/uploads/profile-images/profileimage5.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.api.props",
+      "PackagePath": "build\\api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.api.props",
+      "PackagePath": "buildMultiTargeting\\api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.api.props",
+      "PackagePath": "buildTransitive\\api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,404 @@
+2024-11-30 23:46:42.814 +01:00 [INF] User profile is available. Using '/Users/axel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 23:46:44.348 +01:00 [INF] Now listening on: https://localhost:7046
+2024-11-30 23:46:44.358 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-30 23:46:44.361 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 23:46:44.361 +01:00 [INF] Hosting environment: Development
+2024-11-30 23:46:44.361 +01:00 [INF] Content root path: /Users/axel/Documents/Skole/TestFriendly/api
+2024-11-30 23:46:44.781 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:46:44.781 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:46:44.801 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:44.801 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:44.806 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:44.806 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:44.812 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:44.812 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:44.832 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:44.832 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:44.871 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 57.7632ms
+2024-11-30 23:46:44.871 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 57.7672ms
+2024-11-30 23:46:44.872 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:44.872 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:44.876 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 95.5632ms
+2024-11-30 23:46:44.876 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 95.5868ms
+2024-11-30 23:46:46.389 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:46:46.389 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:46:46.390 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:46:46.391 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:46:46.393 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:46.393 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:46.394 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:46.394 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:46.396 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:46.396 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:46.396 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:46.396 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:46.401 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:46:46.401 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:46:46.409 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:46.409 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:46.443 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:46.443 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:46.444 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:46:46.444 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:46:46.444 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 34.8927ms
+2024-11-30 23:46:46.444 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:46.444 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 35.2231ms
+2024-11-30 23:46:46.444 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:46.445 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 53.5389ms
+2024-11-30 23:46:46.445 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 55.3938ms
+2024-11-30 23:46:46.448 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 46.6748ms
+2024-11-30 23:46:46.448 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:46.448 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 46.9258ms
+2024-11-30 23:46:46.448 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:46.449 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 60.2147ms
+2024-11-30 23:46:46.449 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 58.8479ms
+2024-11-30 23:46:49.057 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:46:49.057 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:46:49.059 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:49.059 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:49.060 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:49.060 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:49.060 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:49.060 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:49.065 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:49.065 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:49.065 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 5.4574ms
+2024-11-30 23:46:49.066 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:49.065 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 5.3725ms
+2024-11-30 23:46:49.066 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:49.066 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 8.5662ms
+2024-11-30 23:46:49.066 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 8.552ms
+2024-11-30 23:46:49.983 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:46:49.983 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/25e80f62-952b-46b1-b5b9-dbd1999061c2 - null null
+2024-11-30 23:46:49.984 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:46:49.984 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:49.983 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/25e80f62-952b-46b1-b5b9-dbd1999061c2 - null null
+2024-11-30 23:46:49.984 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:49.984 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:49.985 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:49.985 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:49.985 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:49.985 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:49.986 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:49.986 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:49.986 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:46:49.987 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:49.987 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:46:49.988 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:49.989 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:46:49.989 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 1.7844ms
+2024-11-30 23:46:49.989 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:49.989 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 4.2848ms
+2024-11-30 23:46:49.989 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:49.989 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:46:49.989 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/25e80f62-952b-46b1-b5b9-dbd1999061c2 - 200 249 application/json; charset=utf-8 5.7267ms
+2024-11-30 23:46:49.988 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:49.989 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 2.989ms
+2024-11-30 23:46:49.989 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:49.989 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 6.0255ms
+2024-11-30 23:46:49.989 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 3.6204ms
+2024-11-30 23:46:49.990 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:49.990 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/25e80f62-952b-46b1-b5b9-dbd1999061c2 - 200 249 application/json; charset=utf-8 6.563ms
+2024-11-30 23:46:49.990 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 6.4173ms
+2024-11-30 23:46:50.956 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:46:50.956 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:46:50.958 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:50.958 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:50.959 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:50.959 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:50.959 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:50.959 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:50.963 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:50.963 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:50.963 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 2.8683ms
+2024-11-30 23:46:50.963 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:50.963 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 2.9651ms
+2024-11-30 23:46:50.963 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:46:50.964 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 7.2648ms
+2024-11-30 23:46:50.964 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 7.4637ms
+2024-11-30 23:46:51.715 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:46:51.715 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:46:51.715 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:46:51.715 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:46:51.715 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:51.715 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:51.715 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:51.715 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:51.715 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:51.715 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:46:51.715 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:51.716 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:46:51.716 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:51.716 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:46:51.716 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:51.716 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:46:51.718 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:51.718 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:46:51.718 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 2.8563ms
+2024-11-30 23:46:51.718 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:46:51.718 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:51.718 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:46:51.718 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 2.0403ms
+2024-11-30 23:46:51.718 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:46:51.718 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 3.8605ms
+2024-11-30 23:46:51.718 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 3.9369ms
+2024-11-30 23:46:51.718 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 2.3441ms
+2024-11-30 23:46:51.719 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:51.719 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 4.1715ms
+2024-11-30 23:46:51.719 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 3.1207ms
+2024-11-30 23:46:51.719 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:46:51.719 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 4.4073ms
+2024-11-30 23:47:29.377 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 23:47:29.377 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 23:47:29.377 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:47:29.380 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:29.380 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:29.380 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:29.384 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:29.384 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:29.384 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 23:47:29.385 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:47:29.385 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:29.391 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:29.391 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:29.392 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 7.7412ms
+2024-11-30 23:47:29.392 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:29.392 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 7.6787ms
+2024-11-30 23:47:29.393 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:29.393 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 16.5499ms
+2024-11-30 23:47:29.393 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 16.6867ms
+2024-11-30 23:47:29.393 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 23:47:29.404 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:29.406 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 12.8722ms
+2024-11-30 23:47:29.406 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 23:47:29.407 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 441 application/json; charset=utf-8 30.3535ms
+2024-11-30 23:47:29.408 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 23:47:29.408 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:29.408 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 23:47:29.409 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:47:29.409 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 23:47:29.409 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:29.409 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:29.409 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:47:29.409 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:47:29.410 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 23:47:29.411 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 23:47:29.411 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 23:47:29.438 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 0
+2024-11-30 23:47:29.438 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 0
+2024-11-30 23:47:29.438 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 0
+2024-11-30 23:47:29.438 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 23:47:29.438 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 23:47:29.438 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 23:47:29.438 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 28.0325ms
+2024-11-30 23:47:29.438 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 27.525ms
+2024-11-30 23:47:29.439 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:47:29.439 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:47:29.439 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 27.6392ms
+2024-11-30 23:47:29.439 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 30.3363ms
+2024-11-30 23:47:29.439 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:47:29.439 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 30.081ms
+2024-11-30 23:47:29.439 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 30.2578ms
+2024-11-30 23:47:29.954 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:47:29.954 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:47:29.954 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:29.954 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:29.955 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:29.955 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:29.955 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:29.955 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:29.957 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:29.957 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:29.957 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 2.0964ms
+2024-11-30 23:47:29.957 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:29.957 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 2.9172ms
+2024-11-30 23:47:29.957 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 2.5125ms
+2024-11-30 23:47:29.957 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:29.958 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 3.3114ms
+2024-11-30 23:47:30.879 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/25e80f62-952b-46b1-b5b9-dbd1999061c2 - null null
+2024-11-30 23:47:30.879 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/25e80f62-952b-46b1-b5b9-dbd1999061c2 - null null
+2024-11-30 23:47:30.879 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:30.879 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:47:30.879 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:30.879 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:30.879 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:47:30.879 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:47:30.879 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:47:30.879 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:30.880 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:30.880 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:47:30.880 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:30.879 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:30.881 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:30.881 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:47:30.882 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:47:30.882 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:47:30.882 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:30.882 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 2.342ms
+2024-11-30 23:47:30.882 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:47:30.883 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/25e80f62-952b-46b1-b5b9-dbd1999061c2 - 200 249 application/json; charset=utf-8 3.6042ms
+2024-11-30 23:47:30.883 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 3.0013ms
+2024-11-30 23:47:30.883 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:47:30.883 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:30.883 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/25e80f62-952b-46b1-b5b9-dbd1999061c2 - 200 249 application/json; charset=utf-8 4.3086ms
+2024-11-30 23:47:30.883 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 3.7722ms
+2024-11-30 23:47:30.883 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:30.883 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 1.9175ms
+2024-11-30 23:47:30.883 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:30.884 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 4.4044ms
+2024-11-30 23:47:30.884 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 4.9201ms
+2024-11-30 23:47:32.235 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:47:32.235 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:47:32.236 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:32.236 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:32.236 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:32.236 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:32.236 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:32.236 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:32.239 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:32.239 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:32.239 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 2.5636ms
+2024-11-30 23:47:32.239 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 2.6246ms
+2024-11-30 23:47:32.239 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:32.239 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:47:32.239 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 4.2219ms
+2024-11-30 23:47:32.239 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 4.194ms
+2024-11-30 23:47:38.493 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - null null
+2024-11-30 23:47:38.540 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 200 null text/html;charset=utf-8 46.9723ms
+2024-11-30 23:47:38.809 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - null null
+2024-11-30 23:47:38.845 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.027ms
+2024-11-30 23:47:42.649 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:47:42.652 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:42.652 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:47:42.656 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:42.657 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 4.8944ms
+2024-11-30 23:47:42.657 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:42.658 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 8.987ms
+2024-11-30 23:47:49.895 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:47:49.895 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:47:49.895 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:47:49.895 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:49.895 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:47:49.895 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:49.896 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:49.895 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:47:49.896 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:47:49.896 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:49.896 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:49.896 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:47:49.896 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:49.897 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:47:49.897 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:47:49.897 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:47:49.906 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:49.909 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 12.6417ms
+2024-11-30 23:47:49.909 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:49.909 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 14.6522ms
+2024-11-30 23:47:49.910 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:47:49.911 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 14.0402ms
+2024-11-30 23:47:49.911 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:47:49.911 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 16.7841ms
+2024-11-30 23:47:49.915 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:47:49.915 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:47:49.915 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 18.5313ms
+2024-11-30 23:47:49.915 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:47:49.915 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 18.0281ms
+2024-11-30 23:47:49.915 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:47:49.915 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 20.4786ms
+2024-11-30 23:47:49.915 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 20.5231ms
+2024-11-30 23:49:50.669 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:49:50.669 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:49:50.671 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:49:50.671 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:49:50.671 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:49:50.671 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:49:50.672 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:49:50.672 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:49:50.683 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:49:50.683 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:49:50.683 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 11.2611ms
+2024-11-30 23:49:50.683 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:49:50.683 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 11.3577ms
+2024-11-30 23:49:50.683 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:49:50.683 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 14.1918ms
+2024-11-30 23:49:50.683 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 14.1901ms
+2024-11-30 23:49:58.223 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:49:58.223 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:49:58.225 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:49:58.225 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:49:58.226 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:49:58.226 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:49:58.226 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:49:58.226 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:49:58.227 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:49:58.227 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:49:58.227 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:49:58.227 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:49:58.227 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:49:58.227 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:49:58.227 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:49:58.227 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:49:58.242 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:49:58.243 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:49:58.242 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:49:58.243 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:49:58.246 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 19.1523ms
+2024-11-30 23:49:58.246 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:49:58.246 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 19.0703ms
+2024-11-30 23:49:58.246 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:49:58.246 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 19.184ms
+2024-11-30 23:49:58.246 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 18.7526ms
+2024-11-30 23:49:58.246 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:49:58.246 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:49:58.248 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 24.5912ms
+2024-11-30 23:49:58.248 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 21.9421ms
+2024-11-30 23:49:58.248 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 24.6931ms
+2024-11-30 23:49:58.249 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 22.6217ms
+2024-11-30 23:51:07.525 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:51:07.525 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:51:07.527 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:51:07.527 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:51:07.528 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:51:07.528 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:51:07.528 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:51:07.528 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:51:07.533 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:51:07.533 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:51:07.533 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 5.0232ms
+2024-11-30 23:51:07.533 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 5.1822ms
+2024-11-30 23:51:07.533 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:51:07.533 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:51:07.533 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 7.8736ms
+2024-11-30 23:51:07.533 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 7.9535ms
+2024-11-30 23:53:46.159 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:53:46.160 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:53:46.160 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:53:46.160 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:53:46.161 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:53:46.161 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:53:46.161 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:53:46.161 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:53:46.166 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:53:46.166 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:53:46.166 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 4.9763ms
+2024-11-30 23:53:46.166 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:53:46.166 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 4.9538ms
+2024-11-30 23:53:46.166 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:53:46.166 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 7.4885ms
+2024-11-30 23:53:46.166 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 6.8382ms
+2024-11-30 23:54:35.123 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:54:35.123 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - null null
+2024-11-30 23:54:35.125 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:54:35.126 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:54:35.127 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:54:35.127 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:54:35.127 +01:00 [INF] Route matched with {action = "GetUserById", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(System.String) on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:54:35.127 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:54:35.131 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:54:35.132 +01:00 [INF] Executing OkObjectResult, writing value of type 'friendly.DTOs.UserDto'.
+2024-11-30 23:54:35.132 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.GetUserById (api) in 4.4865ms
+2024-11-30 23:54:35.132 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.GetUserById (api)'
+2024-11-30 23:54:35.132 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 4.5766ms
+2024-11-30 23:54:35.132 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:54:35.132 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 9.1478ms
+2024-11-30 23:54:35.132 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/user/24d6c406-8f21-4249-95f4-27d5ea355ad7 - 200 253 application/json; charset=utf-8 9.1416ms

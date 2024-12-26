@@ -1,0 +1,446 @@
+2024-11-30 16:08:55.116 +01:00 [INF] User profile is available. Using 'C:\Users\Kristoffer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-30 16:08:56.238 +01:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2024-11-30 16:08:56.257 +01:00 [INF] Now listening on: https://localhost:7046
+2024-11-30 16:08:56.258 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-30 16:08:56.260 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 16:08:56.261 +01:00 [INF] Hosting environment: Development
+2024-11-30 16:08:56.262 +01:00 [INF] Content root path: C:\Users\Kristoffer\Documents\TestFriendly\api
+2024-11-30 16:08:58.014 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:08:58.014 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 16:08:58.014 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 16:08:58.041 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.041 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.041 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.051 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:08:58.051 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:08:58.051 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:08:58.057 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:08:58.057 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 16:08:58.057 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 16:08:58.084 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:08:58.084 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:08:58.084 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:08:58.130 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 67.7768ms
+2024-11-30 16:08:58.130 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 67.7767ms
+2024-11-30 16:08:58.130 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 67.777ms
+2024-11-30 16:08:58.131 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 16:08:58.131 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 16:08:58.131 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 16:08:58.131 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:08:58.131 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:08:58.131 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:08:58.133 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.133 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.133 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.134 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:08:58.134 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.134 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:08:58.134 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 16:08:58.134 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 16:08:58.134 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 121.5453ms
+2024-11-30 16:08:58.134 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 447 application/json; charset=utf-8 121.581ms
+2024-11-30 16:08:58.134 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 500 application/json; charset=utf-8 121.5441ms
+2024-11-30 16:08:58.135 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 16:08:58.135 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:08:58.135 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 16:08:58.135 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.136 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.136 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.136 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.136 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.136 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:08:58.136 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:08:58.138 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:08:58.138 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:08:58.138 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:08:58.158 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:08:58.158 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:08:58.158 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:08:58.158 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 23.6761ms
+2024-11-30 16:08:58.158 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 22.0954ms
+2024-11-30 16:08:58.158 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:08:58.158 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 23.6646ms
+2024-11-30 16:08:58.158 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:08:58.158 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:08:58.158 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 22.8605ms
+2024-11-30 16:08:58.158 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 500 application/json; charset=utf-8 27.4622ms
+2024-11-30 16:08:58.158 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 447 application/json; charset=utf-8 27.4675ms
+2024-11-30 16:08:58.173 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 0
+2024-11-30 16:08:58.173 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 0
+2024-11-30 16:08:58.174 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:08:58.174 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:08:58.174 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 0
+2024-11-30 16:08:58.174 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:08:58.174 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 35.8004ms
+2024-11-30 16:08:58.174 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 35.6257ms
+2024-11-30 16:08:58.174 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.174 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 35.7683ms
+2024-11-30 16:08:58.174 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.174 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.174 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 38.8121ms
+2024-11-30 16:08:58.174 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 38.8198ms
+2024-11-30 16:08:58.174 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 43.4088ms
+2024-11-30 16:08:58.175 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 16:08:58.175 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 16:08:58.175 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.175 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.175 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 16:08:58.175 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:08:58.175 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.175 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.175 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:08:58.175 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:08:58.175 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.175 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:08:58.180 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 0
+2024-11-30 16:08:58.181 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:08:58.181 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 0
+2024-11-30 16:08:58.182 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 0
+2024-11-30 16:08:58.182 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:08:58.182 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:08:58.182 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 6.9545ms
+2024-11-30 16:08:58.182 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 6.9072ms
+2024-11-30 16:08:58.182 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.182 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 7.0521ms
+2024-11-30 16:08:58.182 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.182 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:08:58.182 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 7.4134ms
+2024-11-30 16:08:58.182 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 7.4332ms
+2024-11-30 16:08:58.182 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 7.31ms
+2024-11-30 16:09:01.432 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5062/api/likeapi/create - null null
+2024-11-30 16:09:01.433 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:01.434 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5062/api/likeapi/create - 204 null null 1.6243ms
+2024-11-30 16:09:01.435 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5062/api/likeapi/create - application/json 60
+2024-11-30 16:09:01.435 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:01.436 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.CreateLike (api)'
+2024-11-30 16:09:01.440 +01:00 [INF] Route matched with {action = "CreateLike", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateLike(friendly.DTOs.LikeDto) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:01.494 +01:00 [INF] Like created successfully for PostId: 1 and UserId: 99b7b762-71a8-4ab3-9690-3d09111f4128
+2024-11-30 16:09:01.494 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-30 16:09:01.496 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.CreateLike (api) in 56.204ms
+2024-11-30 16:09:01.496 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.CreateLike (api)'
+2024-11-30 16:09:01.496 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5062/api/likeapi/create - 200 39 application/json; charset=utf-8 61.0344ms
+2024-11-30 16:09:01.499 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 16:09:01.499 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:09:01.499 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 16:09:01.499 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:01.499 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:01.499 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:01.499 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:01.499 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:01.499 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:01.500 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 16:09:01.500 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 16:09:01.500 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:09:01.505 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:01.505 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:01.505 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 5.8193ms
+2024-11-30 16:09:01.505 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 5.8435ms
+2024-11-30 16:09:01.505 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:01.505 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:01.506 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 447 application/json; charset=utf-8 6.5365ms
+2024-11-30 16:09:01.506 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:01.506 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 500 application/json; charset=utf-8 6.607ms
+2024-11-30 16:09:01.506 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 6.1684ms
+2024-11-30 16:09:01.506 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:01.506 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 6.9528ms
+2024-11-30 16:09:01.508 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 16:09:01.508 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 16:09:01.508 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 16:09:01.508 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:01.508 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:01.508 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:01.509 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:01.509 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:01.509 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:01.509 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:01.509 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:01.509 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:01.513 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 0
+2024-11-30 16:09:01.514 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 0
+2024-11-30 16:09:01.515 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:01.515 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:01.515 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 1
+2024-11-30 16:09:01.515 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 6.3138ms
+2024-11-30 16:09:01.515 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:01.515 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:01.515 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 6.7495ms
+2024-11-30 16:09:01.515 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 6.407ms
+2024-11-30 16:09:01.515 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:01.515 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 6.4095ms
+2024-11-30 16:09:01.515 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:01.515 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 6.7979ms
+2024-11-30 16:09:01.515 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 6.8553ms
+2024-11-30 16:09:05.204 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5062/api/likeapi/create - application/json 60
+2024-11-30 16:09:05.205 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:05.205 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.CreateLike (api)'
+2024-11-30 16:09:05.205 +01:00 [INF] Route matched with {action = "CreateLike", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateLike(friendly.DTOs.LikeDto) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:05.216 +01:00 [INF] Like created successfully for PostId: 2 and UserId: 99b7b762-71a8-4ab3-9690-3d09111f4128
+2024-11-30 16:09:05.217 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-30 16:09:05.217 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.CreateLike (api) in 11.8076ms
+2024-11-30 16:09:05.217 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.CreateLike (api)'
+2024-11-30 16:09:05.217 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5062/api/likeapi/create - 200 39 application/json; charset=utf-8 12.844ms
+2024-11-30 16:09:05.220 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:09:05.220 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 16:09:05.220 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 16:09:05.220 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:05.220 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:05.221 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:05.221 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:05.221 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:05.221 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:05.221 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 16:09:05.221 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 16:09:05.221 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:09:05.224 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:05.224 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:05.225 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:05.225 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 3.8825ms
+2024-11-30 16:09:05.225 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 3.8737ms
+2024-11-30 16:09:05.225 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:05.225 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:05.225 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 500 application/json; charset=utf-8 4.5594ms
+2024-11-30 16:09:05.225 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 447 application/json; charset=utf-8 4.5141ms
+2024-11-30 16:09:05.225 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 4.0763ms
+2024-11-30 16:09:05.225 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:05.225 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 4.7048ms
+2024-11-30 16:09:05.228 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 16:09:05.228 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 16:09:05.228 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:05.228 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:05.228 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:05.228 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 16:09:05.228 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:05.228 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:05.228 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:05.228 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:05.229 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:05.229 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:05.233 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 0
+2024-11-30 16:09:05.233 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:05.233 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 1
+2024-11-30 16:09:05.234 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:05.234 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 5.1622ms
+2024-11-30 16:09:05.234 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 1
+2024-11-30 16:09:05.234 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:05.234 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:05.234 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 5.6053ms
+2024-11-30 16:09:05.234 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:05.234 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 5.7709ms
+2024-11-30 16:09:05.234 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 6.1408ms
+2024-11-30 16:09:05.234 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 5.6792ms
+2024-11-30 16:09:05.234 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:05.234 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 6.2235ms
+2024-11-30 16:09:07.367 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5062/api/likeapi/create - null null
+2024-11-30 16:09:07.367 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:07.367 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5062/api/likeapi/create - 204 null null 0.5926ms
+2024-11-30 16:09:07.368 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5062/api/likeapi/create - application/json 60
+2024-11-30 16:09:07.368 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:07.369 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.CreateLike (api)'
+2024-11-30 16:09:07.369 +01:00 [INF] Route matched with {action = "CreateLike", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateLike(friendly.DTOs.LikeDto) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:07.379 +01:00 [INF] Like created successfully for PostId: 3 and UserId: 99b7b762-71a8-4ab3-9690-3d09111f4128
+2024-11-30 16:09:07.379 +01:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-11-30 16:09:07.380 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.CreateLike (api) in 10.7166ms
+2024-11-30 16:09:07.380 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.CreateLike (api)'
+2024-11-30 16:09:07.380 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5062/api/likeapi/create - 200 39 application/json; charset=utf-8 11.3232ms
+2024-11-30 16:09:07.383 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 16:09:07.383 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:09:07.383 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 16:09:07.383 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:07.383 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:07.383 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:07.383 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:07.383 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:07.383 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:07.383 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 16:09:07.383 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 16:09:07.383 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:09:07.387 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:07.387 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 3.5446ms
+2024-11-30 16:09:07.387 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:07.387 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 4.2635ms
+2024-11-30 16:09:07.391 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:07.391 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:07.391 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 7.812ms
+2024-11-30 16:09:07.391 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:07.391 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 7.9167ms
+2024-11-30 16:09:07.391 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:07.391 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 447 application/json; charset=utf-8 8.4524ms
+2024-11-30 16:09:07.392 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 500 application/json; charset=utf-8 8.5799ms
+2024-11-30 16:09:07.397 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 16:09:07.397 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 16:09:07.397 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 16:09:07.397 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:07.397 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:07.397 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:07.397 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:07.397 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:07.397 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:07.397 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:07.397 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:07.397 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:07.403 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 1
+2024-11-30 16:09:07.404 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:07.404 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 1
+2024-11-30 16:09:07.405 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:07.405 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 7.3355ms
+2024-11-30 16:09:07.405 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 7.3027ms
+2024-11-30 16:09:07.405 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:07.405 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:07.405 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 1
+2024-11-30 16:09:07.405 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:07.406 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 8.0787ms
+2024-11-30 16:09:07.406 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 8.42ms
+2024-11-30 16:09:07.406 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:07.406 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 8.434ms
+2024-11-30 16:09:07.406 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 8.8481ms
+2024-11-30 16:09:18.524 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:09:18.524 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:18.524 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:18.524 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:09:18.527 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:18.528 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 3.3347ms
+2024-11-30 16:09:18.528 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:18.528 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 4.0988ms
+2024-11-30 16:09:18.528 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:09:18.528 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:18.528 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:18.528 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:09:18.530 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:18.531 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 2.1583ms
+2024-11-30 16:09:18.531 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:18.531 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 2.5517ms
+2024-11-30 16:09:22.347 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5062/api/postapi/create - multipart/form-data; boundary=----WebKitFormBoundaryiBlOVk41DTtX67W9 9552124
+2024-11-30 16:09:22.347 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.347 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.CreatePost (api)'
+2024-11-30 16:09:22.351 +01:00 [INF] Route matched with {action = "CreatePost", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreatePost(friendly.DTOs.PostDto, Microsoft.AspNetCore.Http.IFormFile) on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 16:09:22.445 +01:00 [INF] [PostRepository] Adding post to the DbContext: {"PostId":0,"PostImagePath":"/uploads/fda3be86-5c08-4df0-a9a1-ac1afa75dda2_MSI.png","Caption":"HEI","PostDate":"Nov 30, 2024 16:09:22","UserId":"99b7b762-71a8-4ab3-9690-3d09111f4128","User":null,"Comments":null,"Likes":null,"$type":"Post"}
+2024-11-30 16:09:22.448 +01:00 [INF] [PostRepository] Entity state before saving: "Added"
+2024-11-30 16:09:22.451 +01:00 [INF] [PostRepository] Entity state after saving: "Unchanged"
+2024-11-30 16:09:22.452 +01:00 [INF] [PostRepository] Post creation succeeded with PostId: 4
+2024-11-30 16:09:22.453 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'friendly.DTOs.PostDto'.
+2024-11-30 16:09:22.462 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.CreatePost (api) in 110.2036ms
+2024-11-30 16:09:22.462 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.CreatePost (api)'
+2024-11-30 16:09:22.463 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5062/api/postapi/create - 201 183 application/json; charset=utf-8 115.9279ms
+2024-11-30 16:09:22.471 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 16:09:22.471 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:09:22.471 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 16:09:22.471 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.471 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.471 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.471 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:22.471 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:22.471 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:22.471 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 16:09:22.471 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:09:22.471 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 16:09:22.477 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:22.477 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:22.477 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:22.477 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 5.2773ms
+2024-11-30 16:09:22.477 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 5.2902ms
+2024-11-30 16:09:22.477 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:22.477 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 5.2573ms
+2024-11-30 16:09:22.477 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:22.477 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:22.477 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 5.7872ms
+2024-11-30 16:09:22.477 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 684 application/json; charset=utf-8 5.9438ms
+2024-11-30 16:09:22.477 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 447 application/json; charset=utf-8 5.7769ms
+2024-11-30 16:09:22.478 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 16:09:22.478 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 16:09:22.478 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 16:09:22.478 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.478 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.478 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.478 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:22.478 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:22.478 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:22.478 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 16:09:22.478 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 16:09:22.478 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 16:09:22.481 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 16:09:22.481 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 16:09:22.481 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/4 - null null
+2024-11-30 16:09:22.481 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.481 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.482 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.482 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:22.482 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.482 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.482 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 3.8505ms
+2024-11-30 16:09:22.482 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.482 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 16:09:22.482 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:22.482 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:22.482 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:22.482 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 447 application/json; charset=utf-8 4.2561ms
+2024-11-30 16:09:22.482 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:22.482 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 16:09:22.482 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 4.0921ms
+2024-11-30 16:09:22.482 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 16:09:22.482 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 4.3851ms
+2024-11-30 16:09:22.482 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 4.1605ms
+2024-11-30 16:09:22.482 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 16:09:22.482 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 684 application/json; charset=utf-8 4.5682ms
+2024-11-30 16:09:22.484 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 16:09:22.485 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.486 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 1
+2024-11-30 16:09:22.486 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:22.487 +01:00 [INF] Like count retrieved successfully for PostId: 4, Count: 0
+2024-11-30 16:09:22.487 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 5.2208ms
+2024-11-30 16:09:22.487 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:22.487 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.487 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 5.2868ms
+2024-11-30 16:09:22.487 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.487 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 5.8549ms
+2024-11-30 16:09:22.487 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/4 - 200 1 application/json; charset=utf-8 5.882ms
+2024-11-30 16:09:22.487 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.487 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 1
+2024-11-30 16:09:22.488 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:22.488 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:22.488 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 5.6844ms
+2024-11-30 16:09:22.488 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.488 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 6.2668ms
+2024-11-30 16:09:22.488 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 16:09:22.488 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.488 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.488 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:22.488 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/4 - null null
+2024-11-30 16:09:22.488 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.488 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.488 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:22.488 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 16:09:22.488 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.488 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.488 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:22.491 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 1
+2024-11-30 16:09:22.492 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:22.492 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 1
+2024-11-30 16:09:22.492 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 4.5398ms
+2024-11-30 16:09:22.493 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:22.493 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.493 +01:00 [INF] Like count retrieved successfully for PostId: 4, Count: 0
+2024-11-30 16:09:22.494 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:22.494 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 5.9518ms
+2024-11-30 16:09:22.494 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 5.6277ms
+2024-11-30 16:09:22.494 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.494 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/4 - 200 1 application/json; charset=utf-8 5.8688ms
+2024-11-30 16:09:22.494 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 6.3351ms
+2024-11-30 16:09:22.494 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.494 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 10.3862ms
+2024-11-30 16:09:22.495 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 16:09:22.495 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 1
+2024-11-30 16:09:22.495 +01:00 [INF] CORS policy execution successful.
+2024-11-30 16:09:22.495 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:22.495 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.495 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 6.9061ms
+2024-11-30 16:09:22.495 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.495 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 16:09:22.495 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 7.1205ms
+2024-11-30 16:09:22.497 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 1
+2024-11-30 16:09:22.497 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 16:09:22.497 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 2.3951ms
+2024-11-30 16:09:22.498 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 16:09:22.498 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 2.9274ms
+2024-11-30 16:09:22.506 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/fda3be86-5c08-4df0-a9a1-ac1afa75dda2_MSI.png - null null
+2024-11-30 16:09:22.537 +01:00 [INF] Sending file. Request path: '/uploads/fda3be86-5c08-4df0-a9a1-ac1afa75dda2_MSI.png'. Physical path: 'C:\Users\Kristoffer\Documents\TestFriendly\api\wwwroot\uploads\fda3be86-5c08-4df0-a9a1-ac1afa75dda2_MSI.png'
+2024-11-30 16:09:22.537 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/fda3be86-5c08-4df0-a9a1-ac1afa75dda2_MSI.png - 200 9551713 image/png 30.8358ms

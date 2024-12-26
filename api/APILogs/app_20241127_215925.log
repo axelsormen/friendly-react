@@ -1,0 +1,16 @@
+2024-11-27 21:59:25.586 +01:00 [INF] Now listening on: https://localhost:7046
+2024-11-27 21:59:25.591 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-27 21:59:25.592 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-27 21:59:25.592 +01:00 [INF] Hosting environment: Development
+2024-11-27 21:59:25.592 +01:00 [INF] Content root path: /Users/axel/Documents/Skole/TestFriendly/api
+2024-11-27 21:59:25.698 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - null null
+2024-11-27 21:59:25.737 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 200 null text/html;charset=utf-8 40.0913ms
+2024-11-27 21:59:25.983 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - null null
+2024-11-27 21:59:26.015 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.0867ms
+2024-11-27 21:59:28.685 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-27 21:59:28.706 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-27 21:59:28.720 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-27 21:59:29.391 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-27 21:59:29.444 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 722.648ms
+2024-11-27 21:59:29.444 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-27 21:59:29.449 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 500 application/json; charset=utf-8 764.7381ms

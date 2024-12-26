@@ -1,0 +1,100 @@
+2024-11-30 23:28:36.325 +01:00 [INF] User profile is available. Using '/Users/axel/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-11-30 23:28:37.792 +01:00 [INF] Now listening on: https://localhost:7046
+2024-11-30 23:28:37.793 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-30 23:28:37.795 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-30 23:28:37.795 +01:00 [INF] Hosting environment: Development
+2024-11-30 23:28:37.795 +01:00 [INF] Content root path: /Users/axel/Documents/Skole/TestFriendly/api
+2024-11-30 23:28:39.264 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-30 23:28:39.264 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - null null
+2024-11-30 23:28:39.264 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - null null
+2024-11-30 23:28:39.290 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:28:39.290 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:28:39.290 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:28:39.295 +01:00 [INF] Executing endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 23:28:39.295 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:28:39.295 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:28:39.303 +01:00 [INF] Route matched with {action = "CommentList", controller = "CommentAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CommentList() on controller friendly.Controllers.CommentAPIController (api).
+2024-11-30 23:28:39.303 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-30 23:28:39.303 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:28:39.323 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Comment, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.CommentDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:28:39.323 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:28:39.323 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:28:39.362 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 57.8514ms
+2024-11-30 23:28:39.362 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 57.844ms
+2024-11-30 23:28:39.362 +01:00 [INF] Executed action friendly.Controllers.CommentAPIController.CommentList (api) in 57.882ms
+2024-11-30 23:28:39.363 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-30 23:28:39.363 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:28:39.363 +01:00 [INF] Executed endpoint 'friendly.Controllers.CommentAPIController.CommentList (api)'
+2024-11-30 23:28:39.365 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/UserAPI/userlist - 200 1221 application/json; charset=utf-8 102.5878ms
+2024-11-30 23:28:39.365 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/CommentAPI/commentlist - 200 441 application/json; charset=utf-8 102.5892ms
+2024-11-30 23:28:39.365 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 494 application/json; charset=utf-8 102.5897ms
+2024-11-30 23:28:39.366 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - null null
+2024-11-30 23:28:39.366 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - null null
+2024-11-30 23:28:39.366 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - null null
+2024-11-30 23:28:39.367 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:28:39.367 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:28:39.367 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:28:39.368 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:28:39.368 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:28:39.368 +01:00 [INF] Executing endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:28:39.372 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 23:28:39.372 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 23:28:39.372 +01:00 [INF] Route matched with {action = "GetLikesCount", controller = "LikeAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLikesCount(Int32) on controller friendly.Controllers.LikeAPIController (api).
+2024-11-30 23:28:39.405 +01:00 [INF] Like count retrieved successfully for PostId: 1, Count: 0
+2024-11-30 23:28:39.405 +01:00 [INF] Like count retrieved successfully for PostId: 3, Count: 0
+2024-11-30 23:28:39.405 +01:00 [INF] Like count retrieved successfully for PostId: 2, Count: 0
+2024-11-30 23:28:39.405 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 23:28:39.405 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 23:28:39.406 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2024-11-30 23:28:39.406 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 33.9916ms
+2024-11-30 23:28:39.406 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 34.0134ms
+2024-11-30 23:28:39.406 +01:00 [INF] Executed action friendly.Controllers.LikeAPIController.GetLikesCount (api) in 34.0265ms
+2024-11-30 23:28:39.406 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:28:39.406 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:28:39.406 +01:00 [INF] Executed endpoint 'friendly.Controllers.LikeAPIController.GetLikesCount (api)'
+2024-11-30 23:28:39.406 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/3 - 200 1 application/json; charset=utf-8 40.008ms
+2024-11-30 23:28:39.406 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/2 - 200 1 application/json; charset=utf-8 40.019ms
+2024-11-30 23:28:39.406 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/LikeAPI/likes/1 - 200 1 application/json; charset=utf-8 40.0079ms
+2024-11-30 23:28:39.418 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/mountains.jpg - null null
+2024-11-30 23:28:39.419 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage1.jpg - null null
+2024-11-30 23:28:39.419 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage2.jpg - null null
+2024-11-30 23:28:39.422 +01:00 [INF] The file /uploads/mountains.jpg was not modified
+2024-11-30 23:28:39.422 +01:00 [INF] The file /uploads/profile-images/profileimage2.jpg was not modified
+2024-11-30 23:28:39.422 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage2.jpg - 304 null image/jpeg 2.8835ms
+2024-11-30 23:28:39.423 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/mountains.jpg - 304 null image/jpeg 4.3124ms
+2024-11-30 23:28:39.422 +01:00 [INF] The file /uploads/profile-images/profileimage1.jpg was not modified
+2024-11-30 23:28:39.423 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage1.jpg - 304 null image/jpeg 4.4056ms
+2024-11-30 23:28:39.424 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/beach.jpg - null null
+2024-11-30 23:28:39.424 +01:00 [INF] The file /uploads/beach.jpg was not modified
+2024-11-30 23:28:39.424 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/fall.jpg - null null
+2024-11-30 23:28:39.424 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/beach.jpg - 304 null image/jpeg 0.1887ms
+2024-11-30 23:28:39.424 +01:00 [INF] The file /uploads/fall.jpg was not modified
+2024-11-30 23:28:39.424 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/fall.jpg - 304 null image/jpeg 0.2661ms
+2024-11-30 23:28:39.425 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage4.jpg - null null
+2024-11-30 23:28:39.425 +01:00 [INF] The file /uploads/profile-images/profileimage4.jpg was not modified
+2024-11-30 23:28:39.425 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/uploads/profile-images/profileimage4.jpg - 304 null image/jpeg 0.1552ms
+2024-11-30 23:28:40.644 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:28:40.644 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - null null
+2024-11-30 23:28:40.645 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:28:40.645 +01:00 [INF] CORS policy execution successful.
+2024-11-30 23:28:40.646 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:28:40.646 +01:00 [INF] Executing endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:28:40.646 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:28:40.647 +01:00 [INF] Route matched with {action = "UserList", controller = "UserAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UserList() on controller friendly.Controllers.UserAPIController (api).
+2024-11-30 23:28:40.662 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:28:40.662 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.User, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.UserDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-30 23:28:40.664 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 16.571ms
+2024-11-30 23:28:40.664 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:28:40.664 +01:00 [INF] Executed action friendly.Controllers.UserAPIController.UserList (api) in 17.2152ms
+2024-11-30 23:28:40.664 +01:00 [INF] Executed endpoint 'friendly.Controllers.UserAPIController.UserList (api)'
+2024-11-30 23:28:40.664 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 20.3427ms
+2024-11-30 23:28:40.664 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/userapi/userlist - 200 1221 application/json; charset=utf-8 20.4585ms
+2024-11-30 23:28:41.344 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/images/mountains.jpg - null null
+2024-11-30 23:28:41.344 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/images/fall.jpg - null null
+2024-11-30 23:28:41.344 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/images/beach.jpg - null null
+2024-11-30 23:28:41.345 +01:00 [INF] The file /images/mountains.jpg was not modified
+2024-11-30 23:28:41.345 +01:00 [INF] The file /images/fall.jpg was not modified
+2024-11-30 23:28:41.345 +01:00 [INF] The file /images/beach.jpg was not modified
+2024-11-30 23:28:41.345 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/images/fall.jpg - 304 null image/jpeg 0.5674ms
+2024-11-30 23:28:41.345 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/images/beach.jpg - 304 null image/jpeg 0.5702ms
+2024-11-30 23:28:41.345 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/images/mountains.jpg - 304 null image/jpeg 0.5672ms

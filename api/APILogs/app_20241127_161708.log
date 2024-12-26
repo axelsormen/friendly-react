@@ -1,0 +1,21 @@
+2024-11-27 16:17:08.965 +01:00 [INF] Now listening on: http://localhost:5062
+2024-11-27 16:17:08.969 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-27 16:17:08.969 +01:00 [INF] Hosting environment: Development
+2024-11-27 16:17:08.969 +01:00 [INF] Content root path: C:\Users\Kristoffer\Documents\GitHub\friendlyreact\api
+2024-11-27 16:17:15.975 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/ - null null
+2024-11-27 16:17:16.007 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/ - 404 0 null 31.7524ms
+2024-11-27 16:17:16.011 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/, Response status code: 404
+2024-11-27 16:17:19.223 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/ - null null
+2024-11-27 16:17:19.224 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/ - 404 0 null 1.5635ms
+2024-11-27 16:17:19.224 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5062/, Response status code: 404
+2024-11-27 16:17:21.698 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/index.html - null null
+2024-11-27 16:17:21.737 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/index.html - 200 null text/html;charset=utf-8 39.2124ms
+2024-11-27 16:17:21.861 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - null null
+2024-11-27 16:17:21.883 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.0937ms
+2024-11-27 16:17:26.560 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - null null
+2024-11-27 16:17:26.563 +01:00 [INF] Executing endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-27 16:17:26.574 +01:00 [INF] Route matched with {action = "PostList", controller = "PostAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostList() on controller friendly.Controllers.PostAPIController (api).
+2024-11-27 16:17:26.936 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[friendly.Models.Post, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[friendly.DTOs.PostDto, api, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-27 16:17:26.964 +01:00 [INF] Executed action friendly.Controllers.PostAPIController.PostList (api) in 389.1567ms
+2024-11-27 16:17:26.964 +01:00 [INF] Executed endpoint 'friendly.Controllers.PostAPIController.PostList (api)'
+2024-11-27 16:17:26.968 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/PostAPI/postlist - 200 500 application/json; charset=utf-8 407.9076ms
